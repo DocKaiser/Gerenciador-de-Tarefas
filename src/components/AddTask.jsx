@@ -1,7 +1,6 @@
 import { useState } from "react";
 import Input from "./Input";
 
-// ADICIONE ISSO AQUI: { onAddTaskSubmit }
 function AddTask({ onAddTaskSubmit }) {
   const [title, setTitle] = useState("");
   const [description, setDescription] = useState("");
